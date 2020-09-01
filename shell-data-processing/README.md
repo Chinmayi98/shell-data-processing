@@ -66,3 +66,25 @@ tr ' ' '\12' <returnedfile | sort | uniq -c | sort -nr
 ``` 
 tr ' ' '\12' <returnedfile | sort | uniq -c | sort -nr > result.txt 
 ```
+
+## Unimportant Bash Commands
+
+- To redirect the contents of your directory to a file
+```
+ls > filelist.txt
+```
+
+- To redirect and append
+```
+ls >> filelist.txt
+```
+
+- To display the contents a file
+```
+cat temp.txt
+```
+
+- To copy something in Bash
+``` 
+CTRL+SHIFT+C
+```

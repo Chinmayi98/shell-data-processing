@@ -1,8 +1,12 @@
 # Shell Data Processing Notes
 
-Command used to retrive data from an URL and output it to a file
+Command used to retrieve data from an URL and output it to a file is shown below. I've used a page that reads the first few pages of one of my favorite novels, "Wicked Fox".
 
-``` curl "https://harrypotter.fandom.com/wiki/Severus_Snape" -O snape.txt ```
+``` curl "https://www.google.com/books/edition/Wicked_Fox/LfPsDwAAQBAJ?hl=en&gbpv=1&pg=PA1&printsec=frontcover" -O snape.txt ```
+
+Command used to find the most common words, sorted.
+
+``` tr ' ' '\12' < returnedfile | sort | uniq -c ```
 
 ## Common Commands
 

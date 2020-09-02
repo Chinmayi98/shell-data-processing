@@ -1,5 +1,9 @@
 # Shell Data Processing Notes
 
+Command used to retrive data from an URL and output it to a file
+
+``` curl "https://harrypotter.fandom.com/wiki/Severus_Snape" -O snape.txt ```
+
 ## Common Commands
 
 - To make a new directory

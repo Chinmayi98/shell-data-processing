@@ -6,7 +6,7 @@ Command used to retrieve data from an URL and output it to a file is shown below
 
 Command used to find the most common words, sorted.
 
-``` tr ' ' '\12' < returnedfile | sort | uniq -c ```
+``` tr ' ' '\12' < wicked.txt | sort | uniq -c ```
 
 ## Common Commands
 
